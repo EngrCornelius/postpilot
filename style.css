@@ -1,0 +1,517 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+}
+/* typography */
+h1 {
+  font-size: 82px;
+  line-height: 1.17;
+  font-weight: 600;
+}
+h2 {
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+h2.large {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+h2.larger {
+  font-size: 81px;
+  font-weight: 600;
+  line-height: 1.18;
+}
+h3 {
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -2px;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+p.med {
+  font-size: 16px;
+  line-height: 1.875;
+}
+p.medBig {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: rgb(46, 47, 54);
+}
+.italic {
+  font-style: italic;
+}
+p.large {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 0.88;
+  letter-spacing: -1px;
+}
+p.small {
+  font-size: 14px;
+  line-height: 1.5;
+}
+small {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.fifth dt {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+footer dt {
+  font-size: 13px;
+  font-weight: 600;
+}
+ul {
+  font-size: 14px;
+  line-height: 1.2;
+}
+footer ul {
+  font-size: 16px;
+  line-height: 1.875;
+}
+span {
+  font-family: "Covered By Your Grace", "Neue Machina";
+  color: rgb(0, 147, 135);
+  font-weight: 400;
+}
+/* color */
+p {
+  color: rgb(88, 89, 93);
+}
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(46, 47, 53);
+}
+ul {
+  color: rgb(34, 34, 34);
+}
+/* links */
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn1 {
+  color: black;
+  background-color: white;
+  padding: 14px 22px;
+  border: 2px solid;
+  border-radius: 12px;
+  box-shadow: 3px 3px rgb(46, 47, 53);
+}
+.btn2 {
+  color: white;
+  background-color: rgb(255, 109, 44);
+  padding: 14px 22px;
+  border: 2px solid rgb(46, 47, 53);
+  border-radius: 12px;
+  box-shadow: 3px 3px rgb(46, 47, 53);
+}
+.block {
+  display: inline-block;
+  padding: 22px 65px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.block2 {
+  display: inline-block;
+  padding: 22px 44px;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* list */
+ul {
+  list-style: none;
+}
+/* first */
+/* header */
+.first {
+  padding-top: 7.35px;
+  background-color: rgb(224, 248, 242);
+}
+header {
+  background-color: white;
+  height: fit-content;
+  margin-bottom: 20.47px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 28px 75px;
+  padding-bottom: 0;
+}
+.headerWrapperMain {
+  display: flex;
+  align-items: end;
+  gap: 16px;
+}
+nav ul {
+  display: flex;
+  /* gap: 19px; */
+}
+nav ul li {
+  padding: 19px;
+  padding-bottom: 0;
+}
+nav ul li.down {
+  display: flex;
+  align-items: center;
+  gap: 8.59px;
+}
+.headerWrapperSub .btn1 {
+  margin-right: 16px;
+}
+/* hero1 */
+.hero1 {
+  display: flex;
+  padding: 128px 75px;
+  background-image: url(image/div-1.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.hero1 h1 {
+  width: 779.79px;
+  margin-bottom: 25px;
+}
+.hero1 p {
+  width: 553.97px;
+  margin-bottom: 48px;
+}
+.headerBtnWrap {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* second */
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second h2 {
+  margin: 0 auto;
+}
+.second h2 {
+  text-align: center;
+  margin-top: 106px;
+  margin-bottom: 58px;
+  width: 650px;
+}
+.second img {
+  margin-bottom: 96px;
+}
+
+/* third */
+.third {
+  background-color: rgb(243, 250, 250);
+  text-align: center;
+  padding-top: 106px;
+  padding-bottom: 96px;
+}
+.third h2 {
+  width: 603px;
+  margin: 0 auto;
+}
+.directMail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  margin-top: 58px;
+}
+.directMail div,
+.directMail div h2 {
+  width: 228px;
+}
+/* fourth */
+.fourth {
+  background-color: rgb(253, 243, 234);
+  padding: 0 75px;
+  padding-top: 86px;
+  padding-bottom: 96px;
+}
+.fourth h2 {
+  margin: 0 auto;
+  width: 941.56px;
+  text-align: center;
+  margin-bottom: 145px;
+}
+.one {
+  width: 516.44px;
+  display: flex;
+  justify-content: start;
+  padding-top: 63px;
+  padding-bottom: 72px;
+  margin-bottom: 128px;
+}
+.one h2 {
+  width: 324.18px;
+}
+.two {
+  width: 645.56px;
+  display: flex;
+  margin-left: auto;
+  padding-top: 6px;
+  padding-bottom: 15px;
+  margin-bottom: 128px;
+}
+.three {
+  width: 516.44px;
+  display: flex;
+  justify-content: start;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+fieldset {
+  margin-top: 48px;
+  border: 2px solid rgb(209, 199, 190);
+  border-radius: 15px;
+  padding: 34px;
+}
+h3 + p {
+  margin-top: 31px;
+  margin-bottom: 48px;
+}
+.italic {
+  margin-bottom: 16px;
+}
+fieldset div {
+  display: flex;
+  justify-content: space-between;
+}
+.three a {
+  margin-top: 48px;
+}
+/* forgot */
+.forgot {
+  padding-top: 107px;
+  padding-bottom: 96px;
+}
+.forgot h2 {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.Pink {
+  background-color: #fdf3ea;
+}
+.Purple {
+  background-color: rgb(238, 236, 255);
+}
+.Blue {
+  background-color: rgb(224, 248, 242);
+}
+.forgot h2 + div {
+  width: 1290px;
+  margin: 0 auto;
+}
+.gridbox {
+  display: grid;
+  grid-template-columns: repeat(3, 410px);
+  grid-gap: 30px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  border-radius: 13px;
+}
+.box p,
+.box h4 {
+  width: 330px;
+}
+.box h4 {
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+/* fifth */
+.fifth {
+  background-color: rgb(227, 248, 248);
+  padding: 96px 75px;
+}
+.fifth h2 {
+  text-align: center;
+  margin-bottom: 59px;
+}
+.fifth dl {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+dt span {
+  margin-right: 40px;
+  letter-spacing: 4px;
+  display: inline-block;
+  width: 40px;
+}
+dt div + div {
+  margin-left: 15px;
+  width: 472.8px;
+  display: flex;
+  gap: 65px;
+}
+/* sixth */
+.sixth h2 {
+  margin-bottom: 74px;
+}
+.sixth img {
+  width: 100%;
+  margin-bottom: 64px;
+}
+.sixth {
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 96px;
+}
+/* seventh */
+.seventh {
+  background-color: rgb(238, 236, 255);
+  padding: 96px 75px;
+}
+.hero2 {
+  display: flex;
+  gap: 64px;
+}
+.hero2Text h2 {
+  margin-bottom: 36px;
+  width: 565.26px;
+}
+.hero2Text h2 + p + ul {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 48px;
+}
+.hero2Text h2 + p + ul li {
+  width: 172.33px;
+}
+.logos {
+  margin-top: 48px;
+  display: flex;
+  justify-content: end;
+}
+.logos ul {
+  display: flex;
+}
+/* eighth */
+.eight {
+  background-color: rgb(255, 109, 44);
+}
+.hero3 {
+  width: 1277px;
+  margin: 0 auto;
+  display: flex;
+  gap: 135.92px;
+}
+.hero3Text {
+  padding: 96px 0;
+}
+.hero3Text h2,
+.hero3Text p {
+  color: white;
+}
+.hero3Text h2 {
+  color: white;
+  margin-bottom: 17px;
+  width: 509.08px;
+}
+.hero3Text div {
+  display: flex;
+  gap: 40px;
+  margin-top: 48px;
+  margin-bottom: 41px;
+}
+
+/* ninth */
+.ninth {
+  background-color: rgb(243, 250, 250);
+  padding: 96px 0;
+}
+.ninth h2 {
+  text-align: center;
+  margin-bottom: 74px;
+}
+.ninth h2 + div {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.ninth img {
+  margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+  padding: 96px;
+  padding-bottom: 0;
+}
+.footer1 {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  gap: 128px;
+  margin-bottom: 96px;
+}
+.footer1 div img + p {
+  margin-top: 25px;
+  width: 227.5px;
+}
+.footer1 dt {
+  margin-bottom: 27px;
+}
+.footer1 .ulBox {
+  display: flex;
+  gap: 128px;
+}
+dd ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 27px;
+}
+
+footer hr {
+  border: 1px solid rgb(230, 230, 231);
+}
+.bottomLogo {
+  padding: 49px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logoAndCopy p {
+  margin-top: 9px;
+}
+.footerWrapperSub .btn1 {
+  margin-right: 16px;
+}
